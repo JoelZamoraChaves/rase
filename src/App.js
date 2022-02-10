@@ -9,7 +9,7 @@ import NoMatch from './Pages/NoMatch';
 class App extends Component {
   render(){
     return (
-        <div>
+        <div className="App">
             <Router>
               <Routes>
                 <Route exact path='/' element={<Home/>} />
