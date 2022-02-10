@@ -1,12 +1,26 @@
-import logo from './Images/Rase.png'
+import React, { Component } from 'react';
 import './App.css';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './Pages/Home';
+import About from './Pages/About';
+import Contact from './Pages/Contact';
+import NoMatch from './Pages/NoMatch';
 
-function App() {
-  return (
-    <div className="App">
-      <img src={logo} alt="logo"/>
-    </div>
-  );
+class App extends Component {
+  render(){
+    return (
+        <div>
+            <Router>
+              <Routes>
+                <Route exact path='/rase' element={<Home/>} />
+                <Route exact path='/Acerca' element={<About/>} />
+                <Route exact path='/Contactanos' element={<Contact/>} />
+                <Route exact path='/NoEncontrado' element={<NoMatch/>} />
+              </Routes>
+            </Router>
+        </div>
+      );
+  }
 }
 
 export default App;
