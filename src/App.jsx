@@ -7,12 +7,12 @@ import "./App.scss"
 function App() {
   return (
     <div className="app">
-        <Topbar/>
-    <div className="sections">
-    <Intro/>
-    <Products/>
-    <Contact/>
-    </div>
+      <Topbar/>
+      <div className="sections">
+        <Intro/>
+        <Products/>
+        <Contact/>
+      </div>
     </div>
   );
 }
