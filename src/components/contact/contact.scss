@@ -1,10 +1,7 @@
 .contact{
-        padding: auto;
-        padding-top: 150px;
-        background: brown;
-        position: absolute;
-        display: block;
+        background: #FFFFFF;
         p {
+            padding: 20px;
             text-align: center;
             color: #fff;
             display: block;
@@ -13,35 +10,59 @@
         position: relative;
         left: 0;
         right: 0;
-        height: 50%;
+        height: 60%;
         width: auto;
         overflow-y: hidden;
         .map{
             height: 100%;
-            width: 90%;
-            position:relative;
+            width: 100%;
+            position: relative;
             display: block;
             margin: auto;
         }
     } 
-    .text{
-        padding-top: 30px;
+    .info{
+        background-color: #303030;
+        text-align: center;
+        height: auto;
+        div{
+            display: inline-block;
+            padding: 15px;
+            .icon{
+                display: inline-block;
+                color: #fff;
+                padding-bottom: 50px;
+            }
+            .text{
+                display: inline-block;
+                h2{
+                    display: block;
+                    color: rgb(180, 209, 77);
+                }
+                p{
+                    text-align: center;
+                    color: #fff;
+                    display: block;
+                    font-size: 15px;
+                }
+            }
+            
+        }
+    }
+    .schedule{
         p{
-            text-align: center;
-            color: #fff;
+            color: #000;
         }
     }
 }
 
 .social-menu {
     ul {
-        position: absolute;
-        top: 72%;
-        left: 10%;
-        transform: translate(-50%, -50%);
-        padding: 0;
-        margin-top: 100px;
-        display: flex;
+        position: fixed;
+        bottom: 25px;
+        right: 25px;
+        border-radius: 40px;
+        text-align: center;
         li {
             list-style: none;
             margin: 3px;
@@ -66,6 +87,7 @@
                 transition: 0.5s;
                 transform: translate(0,0px);
                 box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+                margin: 5px;
                 &:hover{
                     transform: rotate(0deg) skew(0deg) translate(0, -10px);
                 }
