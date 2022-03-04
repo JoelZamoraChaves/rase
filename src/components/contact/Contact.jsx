@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faLocation, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 import "./contact.scss";
+import Footer from "./../footer/Footer";
 
 export default function Contact(){
   return (
@@ -33,9 +34,7 @@ export default function Contact(){
           </div>
         </div>
       </div>
-      <div className='schedule'>
-        <p>Nuestros horarios son:</p>
-      </div>
+      <Footer />
       
       <div className="social-menu">
         <ul>
@@ -52,5 +51,5 @@ export default function Contact(){
         </ul>
       </div>
     </div>
-  )
+  );
 }
