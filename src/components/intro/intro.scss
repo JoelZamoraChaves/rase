@@ -1,4 +1,6 @@
 .intro{
+    display: inline-block;
+    position: relative;
     .text{
         left: 0;
         right: 0;
@@ -11,6 +13,7 @@
         background-image: url("../../Images/intro.jpeg");
         background-position: 50%;
         background-size: 100%;
+        background-repeat: no-repeat;
         &:before{
             content:'';
             position: absolute;

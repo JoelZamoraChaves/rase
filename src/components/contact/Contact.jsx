@@ -2,8 +2,8 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faLocation, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
+import Footer from "./../Footer/Footer"
 import "./contact.scss";
-import Footer from "./../footer/Footer";
 
 export default function Contact(){
   return (
@@ -34,8 +34,6 @@ export default function Contact(){
           </div>
         </div>
       </div>
-      <Footer />
-      
       <div className="social-menu">
         <ul>
           <li>
@@ -50,6 +48,7 @@ export default function Contact(){
           </li>
         </ul>
       </div>
+      <Footer/>
     </div>
   );
 }

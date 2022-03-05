@@ -29,22 +29,38 @@ code {
   overflow-x: hidden;
 }
 
-.btn-ws{
-  position:fixed;
-  width:60px;
-  height:60px;
-  line-height: 63px;
-  bottom:25px;
-  right:25px;
-  background:#25d366;
-  color:#FFF;
-  border-radius:50px;
-  text-align:center;
-  font-size:35px;
-  box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
-  z-index:100;
-  transition: all 300ms ease;
+*, *::before, *::after {
+  box-sizing: border-box;
 }
-.btn-ws:hover{
-  background: #20ba5a;
+
+*/
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+#root, #__next {
+  isolation: isolate;
 }
