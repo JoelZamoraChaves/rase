@@ -1,11 +1,25 @@
 import React from "react";
-import "./footer.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub} from '@fortawesome/free-brands-svg-icons';
+import "./footer.scss";
 
 function Footer() {
   return (
-    <div className="main-footer">
-      <div className='schedule'>
-        <p><b>Nuestros horarios son: lunes a sábados de 9am a 7pm</b></p>
+    <div className="footer-container">
+      <div className="copy">
+        <p>
+          &copy;{new Date().getFullYear()} Copyright All Right Reserved Rase
+          BarberShop
+        </p>
+      </div>
+      <div className="desing">
+      <p>
+         Página diseñada  por David Barrientos Araya <a href="https://github.com/DavidTK1198" target="_blank" rel='noreferrer'>
+              <FontAwesomeIcon icon={faGithub} className='icon' />
+            </a> y Joel Zamora <a href="https://github.com/DavidTK1198" target="_blank" rel='noreferrer'>
+              <FontAwesomeIcon icon={faGithub} className='icon' />
+            </a>
+        </p>
       </div>
     </div>
   );
