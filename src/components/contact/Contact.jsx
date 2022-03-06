@@ -2,7 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faLocation, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
-import Footer from "./../Footer/Footer"
+import Footer from "./../footer/Footer"
 import "./contact.scss";
 
 export default function Contact(){
