@@ -1,13 +1,8 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp, faInstagram } from '@fortawesome/free-brands-svg-icons';
-<<<<<<< HEAD
-import { faLocation, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
-import Footer from "./../footer/Footer"
-=======
-import { faLocation, faEnvelope, faPhone,faClock,faCalendarDays } from '@fortawesome/free-solid-svg-icons';
-import Footer from "./../Footer/Footer"
->>>>>>> 0d673763e69c3253e8d261d2ac79f2ad57401819
+import { faLocation, faEnvelope, faPhone, faClock, faCalendarDays } from '@fortawesome/free-solid-svg-icons';
+import Footer from "./../footer/Footer";
 import "./contact.scss";
 
 export default function Contact(){
