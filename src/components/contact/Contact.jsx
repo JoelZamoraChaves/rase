@@ -1,13 +1,21 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp, faInstagram } from '@fortawesome/free-brands-svg-icons';
+<<<<<<< HEAD
 import { faLocation, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 import Footer from "./../footer/Footer"
+=======
+import { faLocation, faEnvelope, faPhone,faClock,faCalendarDays } from '@fortawesome/free-solid-svg-icons';
+import Footer from "./../Footer/Footer"
+>>>>>>> 0d673763e69c3253e8d261d2ac79f2ad57401819
 import "./contact.scss";
 
 export default function Contact(){
   return (
-    <div className='contact' id='contact'>
+    <div className='contact' id='Contact'>
+        <div className='schedule'>
+        <p><FontAwesomeIcon icon={faCalendarDays} className='icon' size='1x'></FontAwesomeIcon><b>Nuestros horarios son: Lunes a sábados de 9am a 7pm</b><FontAwesomeIcon icon={faClock} className='icon' size='1x'></FontAwesomeIcon></p>
+      </div>
       <div className='wrapper-Map'>
         <iframe className='map' frameBorder="" scrolling="no" marginHeight="0" marginWidth="0" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3929.8507097773204!2d-84.05492821349152!3d9.9463767900414!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcb2e02ac228ce4ec!2sRASE%20BARBER!5e0!3m2!1ses!2sus!4v1645390910457!5m2!1ses!2sus"  title="Rase Barber, Guadalupe" aria-label="Rase Barber, Guadalupe"></iframe>
       </div>

@@ -7,7 +7,7 @@ export default function Products() {
 	//en lugar de hacer un mero html con cada uno de los productos
 	//si no me avisa y nos reunimos
   return (
-    <div className="products" id="products">
+    <div className="products" id="Products">
       <section className="card-area">
         <section className="card-section">
           <div className="card">
