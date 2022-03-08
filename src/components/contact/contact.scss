@@ -1,6 +1,7 @@
 .contact{
         overflow-y: hidden;
         display: inline;
+        height: auto;
         p {
             padding: 20px;
             text-align: center;
@@ -25,7 +26,7 @@
     .info{
         background-color: #303030;
         text-align: center;
-        height:fit-content;
+        height: fit-content;
         width: auto;
         div{
             display: inline-block;

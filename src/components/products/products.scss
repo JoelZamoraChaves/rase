@@ -16,6 +16,7 @@
   .card-front__heading {
     font-size: 1.5rem;
     margin-top: .25rem;
+    z-index: -1;
   }
   .card-back__heading {
     font-size: 1.5rem;
@@ -104,6 +105,7 @@
     width: 15rem;
     cursor: pointer;
     background: blue;
+    z-index: -1;
   }
   
   
@@ -115,9 +117,7 @@
     transition: all 1s ease;
     visibility: hidden;
     width: 15rem;
-    z-index: 100;
-    
-    
+    z-index: -100;
   }
   
 

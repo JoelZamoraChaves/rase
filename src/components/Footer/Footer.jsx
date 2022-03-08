@@ -13,12 +13,12 @@ function Footer() {
         </p>
       </div>
       <div className="desing">
-      <p>
-         Página diseñada  por David Barrientos Araya <a href="https://github.com/DavidTK1198" target="_blank" rel='noreferrer'>
-              <FontAwesomeIcon icon={faGithub} className='icon' />
-            </a> y Joel Zamora <a href="https://github.com/DavidTK1198" target="_blank" rel='noreferrer'>
-              <FontAwesomeIcon icon={faGithub} className='icon' />
-            </a>
+        <p>
+          Página diseñada  por David Barrientos Araya <a href="https://github.com/DavidTK1198" target="_blank" rel='noreferrer'>
+          <FontAwesomeIcon icon={faGithub} className='icon' />
+          </a> y Joel Zamora <a href="https://github.com/JoelZamoraChaves" target="_blank" rel='noreferrer'>
+            <FontAwesomeIcon icon={faGithub} className='icon' />
+          </a>
         </p>
       </div>
     </div>

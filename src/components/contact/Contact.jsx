@@ -9,28 +9,28 @@ export default function Contact(){
   return (
     <div className='contact' id='Contact'>
         <div className='schedule'>
-        <p><FontAwesomeIcon icon={faCalendarDays} className='icon' size='1x'></FontAwesomeIcon><b>Nuestros horarios son: Lunes a sábados de 9am a 7pm</b><FontAwesomeIcon icon={faClock} className='icon' size='1x'></FontAwesomeIcon></p>
+        <p><FontAwesomeIcon icon={faCalendarDays} className='icon' size='1x'></FontAwesomeIcon><b>Estamos abiertos de lunes a sábados de 9am a 7pm</b><FontAwesomeIcon icon={faClock} className='icon' size='1x'></FontAwesomeIcon></p>
       </div>
       <div className='wrapper-Map'>
         <iframe className='map' frameBorder="" scrolling="no" marginHeight="0" marginWidth="0" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3929.8507097773204!2d-84.05492821349152!3d9.9463767900414!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcb2e02ac228ce4ec!2sRASE%20BARBER!5e0!3m2!1ses!2sus!4v1645390910457!5m2!1ses!2sus"  title="Rase Barber, Guadalupe" aria-label="Rase Barber, Guadalupe"></iframe>
       </div>
       <div className='info'>
         <div className='location'>
-          <FontAwesomeIcon icon={faLocation} className='icon' size='3x'></FontAwesomeIcon>
+          <FontAwesomeIcon icon={faLocation} className='icon' size='2x'></FontAwesomeIcon>
           <div className='text'>
             <h2>Ubicación</h2>
             <p>Guadalupe, San José</p>
           </div>
         </div>
         <div className='email'>
-          <FontAwesomeIcon icon={faEnvelope} className='icon' size='3x'></FontAwesomeIcon>
+          <FontAwesomeIcon icon={faEnvelope} className='icon' size='2x'></FontAwesomeIcon>
           <div className='text'>
-            <h2>Correo electrónico</h2>
+            <h2>Correo</h2>
             <p>francogesc@gmail.com</p>
           </div>
         </div>
         <div className='phone'>
-        <FontAwesomeIcon icon={faPhone} className='icon' size='3x'></FontAwesomeIcon>
+        <FontAwesomeIcon icon={faPhone} className='icon' size='2x'></FontAwesomeIcon>
           <div className='text'>
             <h2>Teléfono</h2>
             <p>(+506) 7260 - 2463</p>
@@ -51,7 +51,7 @@ export default function Contact(){
           </li>
         </ul>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 }
