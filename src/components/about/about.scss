@@ -1,11 +1,18 @@
 .about {
     .image{
         background-image: url("../../Images/Barberia.jpeg");
-        height: 500px;
+        height: 50%;
+        background-size: 70%;
     }
     .info{
-        height: 100%;
+        padding: auto;
+        height: 50%;
         text-align: center;
-        background-color: #303030;
+        background-color: #181818;
+        p, h2{
+            padding: 40px;
+            justify-content: center;
+            color: #fff;
+        }
     }
 }
