@@ -2,6 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faLocation, faEnvelope, faPhone, faClock, faCalendarDays } from '@fortawesome/free-solid-svg-icons';
+import { PopupWidget } from "react-calendly";
 import Footer from "./../footer/Footer";
 import "./contact.scss";
 
@@ -51,6 +52,14 @@ export default function Contact(){
           </li>
         </ul>
       </div>
+      <PopupWidget
+        url="https://calendly.com/daniel-barrientos-araya/revision-del-proyecto-1-programacion-iii"
+        rootElement={document.getElementById("root")}
+        text="Click aquí para agendar una cita!"
+        textColor="#ffffff"
+        color="#00a2ff"
+        oveflow-y='Hidden'
+      />
       <Footer />
     </div>
   );

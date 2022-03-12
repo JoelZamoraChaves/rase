@@ -64,3 +64,11 @@ p, h1, h2, h3, h4, h5, h6 {
 #root, #__next {
   isolation: isolate;
 }
+.calendly-popup-content{
+  overflow-y: hidden;
+}
+
+.calendly-badge-widget{/*aquí ajustas el boton pa*/
+  float: right;
+  padding-right: 500px;
+}
