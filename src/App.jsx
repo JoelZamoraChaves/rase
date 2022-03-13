@@ -3,16 +3,13 @@ import Intro from "./components/intro/Intro";
 import About from "./components/about/About";
 import Products from "./components/products/Products";
 import Contact from "./components/contact/Contact";
-import Menu from "./components/menu/Menu";
-import { useState } from "react";
 import "./App.scss";
 
 function App() {
-  const [menuOpen,setMenuOpen] = useState(false)
+  
   return (
     <div className="app">
-     <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
-     <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
+      <Topbar/>
       <div className="sections">
         <Intro/>
         <About/>

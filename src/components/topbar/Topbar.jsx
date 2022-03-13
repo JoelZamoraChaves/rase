@@ -1,26 +1,17 @@
+import React from 'react';
 import "./topbar.scss";
+import logo from '../../Images/Rase.png';
+import NavBar from './navbar/Navbar';
 
-
-export default function Topbar({ menuOpen, setMenuOpen }) {
+export default function Topbar  () {
   return (
-    <div className={"topbar " + (menuOpen && "active")}>
-      <div className="wrapper">
-        <div className="left">
-          <a href="#intro">
-  
-          </a>
-          <div className="itemContainer">
-
-          </div>
-          <div className="itemContainer">
-          </div>
+    <div className="Topbar">
+      <div className='wrapper'>
+        <div className='left'>
+          <a href='#intro'><img src={logo} alt='logo'/></a>
         </div>
-        <div className="right">
-          <div className="hamburger" onClick={()=>setMenuOpen(!menuOpen)}>
-            <span className="line1"></span>
-            <span className="line2"></span>
-            <span className="line3"></span>
-          </div>
+        <div className='right'>
+          <NavBar />
         </div>
       </div>
     </div>

@@ -1,22 +1,20 @@
-import { useState } from "react";
-import Footer from "./../footer/Footer";
+import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faLocation, faEnvelope, faPhone, faClock, faCalendarDays } from '@fortawesome/free-solid-svg-icons';
+import { PopupWidget } from "react-calendly";
+import Footer from "./../footer/Footer";
 import "./contact.scss";
 
-export default function Contact() {
+export default function Contact(){
   return (
-    <div className="contact" id="Contacto">
-      <div className="left">
-      <div className='schedule'>
+    <div className='contact' id='Contact'>
+        <div className='schedule'>
         <p><FontAwesomeIcon icon={faCalendarDays} className='icon' size='1x'></FontAwesomeIcon><b>Estamos abiertos de lunes a sábados de 9am a 7pm</b><FontAwesomeIcon icon={faClock} className='icon' size='1x'></FontAwesomeIcon></p>
       </div>
       <div className='wrapper-Map'>
         <iframe className='map' frameBorder="" scrolling="no" marginHeight="0" marginWidth="0" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3929.8507097773204!2d-84.05492821349152!3d9.9463767900414!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcb2e02ac228ce4ec!2sRASE%20BARBER!5e0!3m2!1ses!2sus!4v1645390910457!5m2!1ses!2sus"  title="Rase Barber, Guadalupe" aria-label="Rase Barber, Guadalupe"></iframe>
       </div>
-      </div>
-      <div className="right">
       <div className='info'>
         <div className='location'>
           <FontAwesomeIcon icon={faLocation} className='icon' size='2x'></FontAwesomeIcon>
@@ -54,8 +52,15 @@ export default function Contact() {
           </li>
         </ul>
       </div>
-      </div>
-      <Footer/>
+      <PopupWidget
+        url="https://calendly.com/daniel-barrientos-araya/revision-del-proyecto-1-programacion-iii"
+        rootElement={document.getElementById("root")}
+        text="Click aquí para agendar una cita!"
+        textColor="#ffffff"
+        color="#00a2ff"
+        oveflow-y='Hidden'
+      />
+      <Footer />
     </div>
   );
 }
