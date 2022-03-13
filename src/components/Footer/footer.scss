@@ -1,25 +1,22 @@
 .footer-container {
-  border-top: 1px solid #fff;
-  display: block;
-  justify-content: center;
-  background: #303030;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  z-index: 99;
-  position:static;
-  width: 100%;
-  flex-direction:column-reverse; 
-  overflow-y: hidden;
-  font-family: "Poppins", sans-serif;
-  padding: 0;
-  margin: 0;
+  
   .desing  {
     font-family: "Poppins", sans-serif;
     font-size: 26px;
     color: #e7e6e7;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     .icon:hover {
       color: #ffffff;
     }
+    p{
+      color: white;
+      margin-bottom: 10px;
+      
+  }
+ 
   }
   .icon{
     color:lightblue;
@@ -27,5 +24,15 @@
   div p{
     font-size: 17px;
     padding: 0 !important;
+  }
+  .copy{
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    p{
+      color: white;
+      margin-bottom: 10px;
+  }
   }
 }
