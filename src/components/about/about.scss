@@ -1,10 +1,12 @@
 .about {
+    
     .image{
         background-image: url("../../Images/Barberia.jpeg");
         height: 50%;
         background-size: 70%;
     }
     .info{
+        overflow-y: hidden;
         padding: auto;
         height: 50%;
         text-align: center;

@@ -6,6 +6,4 @@ $width: 800px;
     @media (max-width: #{$width}){
         @content
     }
-
-    
 }
