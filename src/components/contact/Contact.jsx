@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Footer from "./../footer/Footer";
+import Footer from "../footer/Footer";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faLocation, faEnvelope, faPhone, faClock, faCalendarDays } from '@fortawesome/free-solid-svg-icons';

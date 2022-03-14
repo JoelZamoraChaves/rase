@@ -6,7 +6,8 @@ export default function intro() {
   return (
     <div className="intro" id="Intro">
       <div className="wrapper">
-        <div className="text">¡En Rase Barber Shop rescatamos el arte de barberia clasica moderna!
+        <div className="text">
+          ¡En Rase Barber Shop rescatamos el arte de barberia clasica moderna!
         </div>
       </div>
     </div>
