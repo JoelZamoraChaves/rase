@@ -1,13 +1,11 @@
 import React from "react";
 import "./intro.scss";
-import background from "../../Images/intro.jpeg";
 import { PopupButton } from "react-calendly";
 
 export default function intro() {
   return (
     <div className="intro" id="Intro">
       <div className="wrapper">
-      <img src={background} alt="" />
         <div className="center">
           ¡En Rase Barber Shop rescatamos el arte de barberia clasica moderna!
         </div>
@@ -24,11 +22,12 @@ export default function intro() {
           }}
           rootElement={document.getElementById("root")}
           styles={{
-              background:"blue",
+              background:"black",
               color:"white",
-              top: "75%"
+              top: "60%",
+              borderRadius: "12px"
           }}
-          text="Agendar un cita"
+          text="Agenda una cita"
           url="https://calendly.com/daniel-barrientos-araya/revision-del-proyecto-1-programacion-iii"
         />
       </div>
