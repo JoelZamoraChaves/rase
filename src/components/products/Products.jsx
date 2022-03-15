@@ -1,14 +1,28 @@
 import React from "react";
-import "./products.scss";
 import minoxidil from "../../Images/Minoxidil.jpeg";
+import ceras from "../../Images/Ceras.jpeg";
+import "./products.scss";
 export default function Products() {
-	//recomiendo hacer un componente Product donde se renderiza cada card
-	//ademas de crear un const productos=[ producto1, producto2]
-	//en lugar de hacer un mero html con cada uno de los productos
-	//si no me avisa y nos reunimos
   return (
     <div className="products" id="Products">
-      <h1> hola</h1>
+        <div className="card">
+            <div className="container">
+                <img src={minoxidil} alt="Minoxidil"/>
+            </div>
+            <div className="details">
+                <h3>Minoxidil</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dignissimos, minus aperiam adipisci exercitationem.</p>
+            </div>
+        </div>
+        <div className="card">
+            <div className="container">
+                <img src={ceras} alt="Ceras"/>
+            </div>
+            <div className="details">
+                <h3>Ceras</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dignissimos, minus aperiam adipisci exercitationem.</p>
+            </div>
+        </div>
     </div>
   );
 }
