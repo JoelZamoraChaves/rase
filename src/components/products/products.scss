@@ -1,5 +1,5 @@
 .products {
-  background-color:#fff;
+  background-color:#303030;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   padding: 20px;
@@ -10,6 +10,8 @@
     background-color: #1c1b29;
       overflow-y: hidden;
     border-radius: 20px;
+    border: #ffffff;
+    border-style: solid;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.18);
     .container {
       position: relative;
