@@ -11,7 +11,7 @@ export default function Products() {
             </div>
             <div className="details">
                 <h3>Minoxidil</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dignissimos, minus aperiam adipisci exercitationem.</p>
+                <p></p>
             </div>
         </div>
         <div className="card">
@@ -20,7 +20,7 @@ export default function Products() {
             </div>
             <div className="details">
                 <h3>Ceras</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dignissimos, minus aperiam adipisci exercitationem.</p>
+                <p></p>
             </div>
         </div>
     </div>
