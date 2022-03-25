@@ -9,7 +9,6 @@ export default function About() {
             <div className="info">
                 <h2>Bienvenidos a Rase BarberShop</h2>
                 <p>Barbero Franco Escorcia cuenta con más de 10 años de experiencia siendo barbero</p>
-                <p>Barbero Johan cuenta con 3 años de experiencia</p>
             </div>
         </div>
     );
