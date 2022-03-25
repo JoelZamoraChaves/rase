@@ -10,7 +10,7 @@ export default function intro() {
           ¡En Rase Barber Shop rescatamos el arte de barberia clasica moderna!
         </div>
         <PopupButton
-          className="center"
+          className="center calendy"
           iframeTitle="Calendly Scheduling Page"
           pageSettings={{
             backgroundColor: 'ffffff',

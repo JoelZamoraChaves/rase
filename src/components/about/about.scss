@@ -1,22 +1,24 @@
 .about {
     display: flex;
     flex-direction: column;
-    .image{
+    img{
         height: 100%;
         width: 100%;
-        background-image: url('../../Images/intro.jpeg');
-        background-size: 100%;
+        image-rendering: auto;
+        image-rendering: crisp-edges;
+        image-rendering: pixelated;
+        image-rendering: -webkit-optimize-contrast;
     }
     .info{
         overflow-y: hidden;
         padding: auto;
-        height: 65%;
+        height: 100%;
         text-align: center;
-        background-color: #303030;
+        background-color: #181818;
         p, h2{
             padding: 25px;
             justify-content: center;
-            color: white;
+            color: #fff;
         }
     }
 }
