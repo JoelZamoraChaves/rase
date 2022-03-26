@@ -1,5 +1,6 @@
+@import "../../global.scss";
 .products {
-  background-color:#303030;
+  background-color: #303030;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   padding: 20px;
@@ -7,8 +8,20 @@
   width: 100%;
   height: 100%;
   align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-image: url("../../Images/back_prod.jpg");
+  background-size: cover;
+  image-rendering: auto;
+  .title {
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    position: relative;
+    font-size: 26px;
+    width: 100%;
+  }
   .card {
-    background-color: #1c1b29;
+    background-color: black;
     overflow-y: hidden;
     border-radius: 20px;
     border: #ffffff;
@@ -56,48 +69,39 @@
   }
 }
 
-@media (max-width: 1180px) {
-  .products {
-    .card {   
-      height: 70%;
-      width: 100%;
-      }
-    }
-}
-
 @media (max-width: 440px) {
   .products {
-    .card {   
+    .card {
       height: 70%;
       width: 70%;
-      }
     }
+  }
 }
 
 @media (max-width: 315px) {
   .products {
-    .card {   
+    .card {
       height: 70%;
       width: 50%;
-      }
     }
+  }
 }
 
 @media (max-width: 872px) {
   .products {
-    .card {   
+    .card {
       height: 50%;
       width: 100%;
-      }
     }
+  }
 }
 
-
-@media (max-width: 869px) {
+@media (max-width: 1299px) {
   .products {
-    .card {   
+    grid-template-columns: repeat(auto-fit, minmax(620px, 1fr));
+    .card {
       height: 100%;
       width: 70%;
-      }
     }
+  }
 }

@@ -5,6 +5,7 @@ import "./products.scss";
 export default function Products() {
   return (
     <div className="products" id="Products">
+        <div className="title"><b>Productos disponibles en Rase Barber Shop</b></div>
         <div className="card">
             <div className="container">
                 <img src={minoxidil} alt="Minoxidil"/>
