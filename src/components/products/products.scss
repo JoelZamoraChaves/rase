@@ -1,33 +1,51 @@
 @import "../../global.scss";
 .products {
   background-color: #303030;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  padding: 20px;
-  grid-gap: 30px;
   width: 100%;
   height: 100%;
-  align-items: center;
   background-color: rgba(0, 0, 0, 0.6);
-  background-image: url("../../Images/back_prod.jpg");
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("../../Images/back_prod.jpg");
   background-size: cover;
   image-rendering: auto;
+  display: flex;
+  flex-direction: column;
+  overflow-y: hidden;
+  text-align: center;
+
   .title {
     text-align: center;
     padding-top: 20px;
     color: white;
-    position: relative;
+    position: relative;;
     font-size: 26px;
-    width: 100%;
+    overflow-y: hidden;
+    margin-top: 100px;
+    padding-bottom: 50px;
   }
+  .wrapper{
+    display: inline-grid;
+    justify-content: center;
+    align-content: center;  
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    padding: 20px;
+    grid-gap: 20px;
+    width: 100%;
+    gap: 4px;
+    height: 100%;
+     .card-center{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     
   .card {
     background-color: black;
     overflow-y: hidden;
     border-radius: 20px;
     border: #ffffff;
     border-style: solid;
-    height: 50%;
+    height: 70%;
     width: 70%;
+    
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.18);
     .container {
       position: relative;
@@ -44,6 +62,7 @@
       padding: 20px 10px;
     }
   }
+}
   .container:after {
     content: "";
     height: 100%;
@@ -67,41 +86,22 @@
     line-height: 30px;
     font-weight: 400;
   }
+
+}
 }
 
-@media (max-width: 440px) {
-  .products {
-    .card {
-      height: 70%;
-      width: 70%;
-    }
-  }
-}
-
-@media (max-width: 315px) {
-  .products {
-    .card {
-      height: 70%;
-      width: 50%;
-    }
-  }
-}
 
 @media (max-width: 872px) {
   .products {
+    .wrapper{
+    .card-center{
     .card {
-      height: 50%;
-      width: 100%;
-    }
-  }
-}
-
-@media (max-width: 1299px) {
-  .products {
-    grid-template-columns: repeat(auto-fit, minmax(620px, 1fr));
-    .card {
-      height: 100%;
+      height: 80%;
       width: 70%;
     }
   }
+  }
+  }
 }
+
+
